@@ -50,14 +50,17 @@
   padding: 1rem;
 }
 
-.localization-form__country_flag {
+.header_localization-form-wrapper {
   display: flex;
   align-items: center;
 } 
 
-.localization-form__currency {
-  display: inline-block;
+.localization-form__disclosure__item-wrapper {
+  display: flex;
 }
+.localization-form__currency_code{
+  padding-left: 1rem;
+} 
 
 @media screen and (max-width: 749px) {
   .localization-form .button {
