@@ -329,11 +329,6 @@
     assign ratio = 1
     if media_aspect_ratio == 'portrait'
       assign ratio = 0.8
-    elsif media_aspect_ratio == 'adapt'
-      assign ratio = card_product.featured_media.aspect_ratio
-    endif
-    if ratio == 0 or ratio == null
-      assign ratio = 1
     endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
@@ -348,12 +343,15 @@
     >
       <div
         class="card__inner{% if settings.card_style == 'standard' %} color-{{ settings.card_color_scheme }} gradient{% endif %} ratio"
-        style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
-        <div class="card__media {% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}"
-        style="{% if  image_shape == 'default' and media_aspect_ratio == 'portrait' %} top: 3rem;{% endif %}">
-          <div class="media media--transparent"
-            style="{% if  image_shape != 'default' and media_aspect_ratio == 'portrait' %} top: 3rem;{% endif %}">
+        <div
+          class="card__media {% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}"
+          style="{% if  image_shape == 'default' and media_aspect_ratio == 'portrait' %}{% endif %}"
+        >
+          <div
+            class="media media--transparent"
+            style="{% if  image_shape != 'default' and media_aspect_ratio == 'portrait' %}{% endif %}"
+          >
             {%- if placeholder_image -%}
               {{ placeholder_image | placeholder_svg_tag: 'placeholder-svg' }}
             {%- else -%}
