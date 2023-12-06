@@ -365,7 +365,8 @@
     "country_label": "Land/område",
     "language_label": "Sprog",
     "update_language": "Opdater sprog",
-    "update_country": "Opdater land/område"
+    "update_country": "Opdater land/område",
+    "search": "Søg"
   },
   "customer": {
     "account": {

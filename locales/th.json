@@ -365,7 +365,8 @@
     "country_label": "ประเทศ/ภูมิภาค",
     "language_label": "ภาษา",
     "update_language": "อัปเดตภาษา",
-    "update_country": "อัปเดตประเทศ/ภูมิภาค"
+    "update_country": "อัปเดตประเทศ/ภูมิภาค",
+    "search": "ค้นหา"
   },
   "customer": {
     "account": {

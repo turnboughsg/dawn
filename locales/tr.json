@@ -365,7 +365,8 @@
     "country_label": "Ülke/bölge",
     "language_label": "Dil",
     "update_language": "Dili güncelle",
-    "update_country": "Ülke/bölge bilgisini güncelle"
+    "update_country": "Ülke/bölge bilgisini güncelle",
+    "search": "Ara"
   },
   "customer": {
     "account": {

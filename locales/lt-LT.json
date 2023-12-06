@@ -389,7 +389,8 @@
     "country_label": "Šalis / regionas",
     "language_label": "Kalba",
     "update_language": "Atnaujinti kalbą",
-    "update_country": "Atnaujinti šalį / regioną"
+    "update_country": "Atnaujinti šalį / regioną",
+    "search": "Ieškoti"
   },
   "customer": {
     "account": {

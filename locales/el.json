@@ -365,7 +365,8 @@
     "country_label": "Χώρα/περιοχή",
     "language_label": "Γλώσσα",
     "update_language": "Ενημέρωση γλώσσας",
-    "update_country": "Ενημερώστε τη χώρα/περιοχή"
+    "update_country": "Ενημερώστε τη χώρα/περιοχή",
+    "search": "Αναζήτηση"
   },
   "customer": {
     "account": {

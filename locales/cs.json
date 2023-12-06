@@ -389,7 +389,8 @@
     "country_label": "Země/oblast",
     "language_label": "Jazyk",
     "update_language": "Aktualizovat jazyk",
-    "update_country": "Aktualizovat zemi/oblast"
+    "update_country": "Aktualizovat zemi/oblast",
+    "search": "Začněte hledat"
   },
   "customer": {
     "account": {

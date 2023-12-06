@@ -365,7 +365,8 @@
     "country_label": "國家/地區",
     "language_label": "語言",
     "update_language": "更新語言",
-    "update_country": "更新國家/地區"
+    "update_country": "更新國家/地區",
+    "search": "搜尋"
   },
   "customer": {
     "account": {

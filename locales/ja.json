@@ -365,7 +365,8 @@
     "country_label": "国/地域",
     "language_label": "言語",
     "update_language": "言語を更新する",
-    "update_country": "国/地域を更新する"
+    "update_country": "国/地域を更新する",
+    "search": "検索"
   },
   "customer": {
     "account": {

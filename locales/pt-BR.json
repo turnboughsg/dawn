@@ -377,7 +377,8 @@
     "country_label": "País/Região",
     "language_label": "Idioma",
     "update_language": "Atualizar idioma",
-    "update_country": "Atualizar país/região"
+    "update_country": "Atualizar país/região",
+    "search": "Pesquisar"
   },
   "customer": {
     "account": {

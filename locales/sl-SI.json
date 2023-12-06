@@ -389,7 +389,8 @@
     "country_label": "Država/regija",
     "language_label": "Jezik",
     "update_language": "Posodobi jezik",
-    "update_country": "Posodobi državo/regijo"
+    "update_country": "Posodobi državo/regijo",
+    "search": "Išči"
   },
   "customer": {
     "account": {

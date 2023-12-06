@@ -365,7 +365,8 @@
     "country_label": "Negara/Wilayah",
     "language_label": "Bahasa",
     "update_language": "Perbarui bahasa",
-    "update_country": "Perbarui negara/wilayah"
+    "update_country": "Perbarui negara/wilayah",
+    "search": "Cari"
   },
   "customer": {
     "account": {

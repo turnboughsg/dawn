@@ -365,7 +365,8 @@
     "country_label": "Land/Region",
     "language_label": "Sprache",
     "update_language": "Sprache aktualisieren",
-    "update_country": "Land/Region aktualisieren"
+    "update_country": "Land/Region aktualisieren",
+    "search": "Suchen"
   },
   "customer": {
     "account": {

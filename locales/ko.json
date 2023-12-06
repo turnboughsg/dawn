@@ -365,7 +365,8 @@
     "country_label": "국가/지역",
     "language_label": "언어",
     "update_language": "언어 업데이트",
-    "update_country": "국가/지역 업데이트"
+    "update_country": "국가/지역 업데이트",
+    "search": "검색"
   },
   "customer": {
     "account": {
