@@ -1,7 +1,7 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
+    "theme_name": "Modern Grace",
     "theme_version": "12.0.0",
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
@@ -44,43 +44,44 @@
             "type": "color",
             "id": "background",
             "label": "t:settings_schema.colors.settings.background.label",
-            "default": "#FFFFFF"
+            "default": "#ffffff"
           },
           {
             "type": "color_background",
             "id": "background_gradient",
             "label": "t:settings_schema.colors.settings.background_gradient.label",
-            "info": "t:settings_schema.colors.settings.background_gradient.info"
+            "info": "t:settings_schema.colors.settings.background_gradient.info",
+            "default": "linear-gradient(45deg, #ffffff 0%, #d3b1c2 100%)"
           },
           {
             "type": "color",
             "id": "text",
             "label": "t:settings_schema.colors.settings.text.label",
-            "default": "#121212"
+            "default": "#382a40"
           },
           {
             "type": "color",
             "id": "button",
             "label": "t:settings_schema.colors.settings.button_background.label",
-            "default": "#121212"
+            "default": "#c197d2"
           },
           {
             "type": "color",
             "id": "button_label",
             "label": "t:settings_schema.colors.settings.button_label.label",
-            "default": "#FFFFFF"
+            "default": "#ffffff"
           },
           {
             "type": "color",
             "id": "secondary_button_label",
             "label": "t:settings_schema.colors.settings.secondary_button_label.label",
-            "default": "#121212"
+            "default": "#fbc5ff"
           },
           {
             "type": "color",
             "id": "shadow",
             "label": "t:settings_schema.colors.settings.shadow.label",
-            "default": "#121212"
+            "default": "#000000"
           }
         ],
         "role": {
@@ -101,53 +102,54 @@
       }
     ]
   },
-  {
-    "name": "t:settings_schema.typography.name",
-    "settings": [
-      {
-        "type": "header",
-        "content": "t:settings_schema.typography.settings.header__1.content"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_header_font",
-        "default": "assistant_n4",
-        "label": "t:settings_schema.typography.settings.type_header_font.label",
-        "info": "t:settings_schema.typography.settings.type_header_font.info"
-      },
-      {
-        "type": "range",
-        "id": "heading_scale",
-        "min": 100,
-        "max": 150,
-        "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.heading_scale.label",
-        "default": 100
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.typography.settings.header__2.content"
-      },
-      {
-        "type": "font_picker",
-        "id": "type_body_font",
-        "default": "assistant_n4",
-        "label": "t:settings_schema.typography.settings.type_body_font.label",
-        "info": "t:settings_schema.typography.settings.type_body_font.info"
-      },
-      {
-        "type": "range",
-        "id": "body_scale",
-        "min": 100,
-        "max": 130,
-        "step": 5,
-        "unit": "%",
-        "label": "t:settings_schema.typography.settings.body_scale.label",
-        "default": 100
-      }
-    ]
-  },
+{
+  "name": "t:settings_schema.typography.name",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:settings_schema.typography.settings.header__1.content"
+    },
+    {
+      "type": "font_picker",
+      "id": "type_header_font",
+      "default": "raleway",
+      "label": "t:settings_schema.typography.settings.type_header_font.label",
+      "info": "t:settings_schema.typography.settings.type_header_font.info"
+    },
+    {
+      "type": "range",
+      "id": "heading_scale",
+      "min": 100,
+      "max": 150,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.typography.settings.heading_scale.label",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.typography.settings.header__2.content"
+    },
+    {
+      "type": "font_picker",
+      "id": "type_body_font",
+      "default": "montserrat",
+      "label": "t:settings_schema.typography.settings.type_body_font.label",
+      "info": "t:settings_schema.typography.settings.type_body_font.info"
+    },
+    {
+      "type": "range",
+      "id": "body_scale",
+      "min": 100,
+      "max": 130,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.typography.settings.body_scale.label",
+      "default": 100
+    }
+  ]
+}
+,
   {
     "name": "t:settings_schema.layout.name",
     "settings": [
@@ -268,7 +270,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.global.settings.corner_radius.label",
-        "default": 0
+        "default": 30
       },
       {
         "type": "header",
@@ -282,7 +284,7 @@
         "step": 5,
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
-        "default": 0
+        "default": 20
       },
       {
         "type": "range",
@@ -292,7 +294,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.global.settings.horizontal_offset.label",
-        "default": 0
+        "default": 4
       },
       {
         "type": "range",
@@ -302,7 +304,7 @@
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.global.settings.vertical_offset.label",
-        "default": 0
+        "default": 4
       },
       {
         "type": "range",
@@ -312,7 +314,7 @@
         "step": 5,
         "unit": "px",
         "label": "t:settings_schema.global.settings.blur.label",
-        "default": 0
+        "default": 10
       }
     ]
   },
